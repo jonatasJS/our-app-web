@@ -23,6 +23,24 @@ export default function ButtonsCard({
         whileTap={{ scale: .9 }}
         href={link}
         target="_blank"
+        onClick={e => {
+          e.preventDefault();
+          if(Notification.permission === 'granted') {
+          new Notification(title, {
+            body: description,
+            icon: "/favicon.ico",
+          });
+          } else {
+            Notification.requestPermission().then(permission => {
+              if(permission === 'granted') {
+                new Notification(title, {
+                  body: description,
+                  icon: "/favicon.ico",
+                });
+              }
+            })
+          }
+        }}
       >
         <ButtonTitleStyles>{title}</ButtonTitleStyles>
         <ButtonDescriptionStyles>{description}</ButtonDescriptionStyles>
