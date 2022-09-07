@@ -1,0 +1,11 @@
+{
+  "body": {
+    "content": "ewogICJ1c2VyIjogewogICAgIm5hbWUiOiAiSm9obiBEb2UiLAogICAgImVtYWlsIjogIiIsCiAgICAicGljdHVyZSI6ICJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vLVFYNFhhOEdmTGNJL0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBLzQyNU1tOWJxNFhrL3Bob3RvLmpwZyIKICB9LAogICJ0b3RhbEl0ZW5zIjogW3sKICAgICJ0b3RhbEN1cHMiOiA1LAogICAgInRvdGFsTWwiOiA1MDAKICB9LHsKICAgICJ0b3RhbEN1cHMiOiA1LAogICAgInRvdGFsTWwiOiA1MDAKICB9XSwKICAiY3JlYXRlZEF0IjogIjIwMTctMDMtMDFUMDA6MDA6MDAuMDAwWiIKfQ==",
+    "file": false,
+    "fileSize": false
+  },
+  "headers": {},
+  "method": "POST",
+  "title": "New HTTP Request",
+  "url": "http://localhost:4000/api/users"
+}

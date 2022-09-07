@@ -2,14 +2,6 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const UserTotalItens = new Schema({
-  _id: {
-    type: {
-      $oid: {
-        type: String,
-      }
-    },
-    required: true,
-  },
   user: {
     type: {
       name: {
@@ -39,13 +31,17 @@ const UserTotalItens = new Schema({
           required: true,
         },
       },
-      required: true,
       createdAt: {
         type: Date,
         default: Date.now,
-      }
+      },
+      required: true,
     },
   ],
+  createdAt: {
+    type: Date,
+    default: Date.now,
+  },
 });
 
-module.exports = mongoose.model("UserTotalItens", UserTotalItens);
+module.exports = mongoose.model("usertotalitens", UserTotalItens);

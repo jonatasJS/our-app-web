@@ -1,0 +1,12 @@
+{
+  "user": {
+    "name": "John Doe",
+    "email": "",
+    "picture": "https://lh3.googleusercontent.com/-QX4Xa8GfLcI/AAAAAAAAAAI/AAAAAAAAAAA/425Mm9bq4Xk/photo.jpg"
+  },
+  "totalItens": [{
+    "totalCups": 5,
+    "totalMl": 500
+  }],
+  "createdAt": "2017-03-01T00:00:00.000Z"
+}
